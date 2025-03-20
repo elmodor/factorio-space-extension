@@ -7,7 +7,7 @@ if settings.startup["SpaceX-no-bob"].value == false then
 		and mods["boblogistics"]
 		and mods["bobtech"]
 		and mods["bobequipment"]
-		and data.raw.recipe["advanced-processing-unit"]
+		and data.raw.recipe["bob-advanced-processing-unit"]
 	then
 		require("__SpaceModFeorasFork__/prototypes/recipe-bobs")
 		require("__SpaceModFeorasFork__/prototypes/technology-bobs")
